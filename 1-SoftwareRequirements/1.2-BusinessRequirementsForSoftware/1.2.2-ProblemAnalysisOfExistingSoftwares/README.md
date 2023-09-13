@@ -3,7 +3,7 @@
 |                    | Особиста безпека | Співи |чистота повітря навколишнього середовища | Тип ліцензії |
 |-----------------------------|-------------|--------------|----------|----------|
 | Продукт / Пошукові фрази |  Особиста безпека    |  software for sing    |software for чистота повітря навколишнього середовища    | |
-| lun.ua - https://misto.lun.ua/air/odesa     |  |   | 1   | Free|
+| lun.ua - https://misto.lun.ua/air/odesa     |  |   | 4   | Free|
 | Vocaloid - https://www.vocaloid.com/en/     |  | 2 |    | FreeWare|
-|   Особиста безпека - http://ua-history.info/videourok/447/          | 1  |  |   |Free |
+|   Особиста безпека - http://ua-history.info/videourok/447/          | 4  |  |   |Free |
 
