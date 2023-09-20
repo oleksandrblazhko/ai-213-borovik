@@ -1,3 +1,3 @@
 ### Діаграма прецедентів програмного продукту
 
-![UseCaseDiagram](https://github.com/oleksandrblazhko/ai-213-borovik/assets/66260361/0a895fe5-3d87-4fec-b944-cc3af8bbca61)
+![UseCaseDiagram2](https://github.com/oleksandrblazhko/ai-213-borovik/assets/66260361/5566a87e-f20e-4bf5-a4ef-f750cae47afc)
