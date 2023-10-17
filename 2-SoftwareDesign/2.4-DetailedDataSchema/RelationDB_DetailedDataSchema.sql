@@ -44,7 +44,13 @@ ALTER TABLE Request_ait_level ADD (
 ALTER TABLE User_n 
   ADD mobile_phone CHAR(14);
 
-  -- Додавання обмеження до стовпця
+ -- Додавання обмеження до стовпця
 ALTER TABLE User_n 
   ADD CONSTRAINT mobile_format_check 
   CHECK (REGEXP_LIKE(mobile_phone, '^(\([0-9]{3}\))?[0-9]{3}-[0-9]{4}$'));
+
+  ALTER TABLE User_n 
+  ADD CONSTRAINT email_check 
+  CHECK (REGEXP_LIKE(email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$'));
+
+
