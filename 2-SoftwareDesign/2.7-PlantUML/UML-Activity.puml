@@ -1,0 +1,15 @@
+@startuml
+title Example of Activity Diagram 
+
+start
+
+:The program analyzes air level; 
+
+if (Is air level geted?) then (yes)
+  :Send information about air level;
+stop
+else (no)
+  :error connection;
+
+stop
+@enduml
