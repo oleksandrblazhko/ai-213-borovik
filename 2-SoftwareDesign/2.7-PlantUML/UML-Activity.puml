@@ -5,7 +5,7 @@ start
 
 :The program analyzes air level; 
 
-if (Is air level geted?) then (yes)
+if (Is air level received?) then (yes)
   :Send information about air level;
 stop
 else (no)
