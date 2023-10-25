@@ -1,0 +1,50 @@
+@startuml
+title Example of Relation Schema
+
+hide circle
+
+entity "User" as t01 {
+    (PK) user
+    --
+    full_name
+    date_of_birth
+    gender
+    email
+}
+
+entity "SafeEco_bot" as t02 {
+    (PK) bot
+    measured_air_purity
+    analyze_air
+    provide_reccomendations
+    (FK) user
+    
+}
+
+entity "Answer_on_Request" as t03 {
+    (PK) answeronrequest
+    measured_air_level
+    answer_time
+    answer_status
+    (FK) bot
+    
+}
+
+entity "Request_air_quality" as t04 {
+    (PK) requestairquality
+    request_title
+    request_time
+    request_status
+    (FK) user
+    (FK) answeronrequest
+    
+}
+
+t01 --{ t02
+
+t02 --{ t03
+
+t03 --{ t04
+
+t01 --{ t04
+@enduml

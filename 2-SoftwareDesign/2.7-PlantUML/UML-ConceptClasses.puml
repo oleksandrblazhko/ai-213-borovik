@@ -1,0 +1,29 @@
+@startuml
+hide circle
+title Example of Classes Diagram 
+
+Class SafeEco_Bot{
+    measired_air
+    air_analysis
+    providing_reccommendations
+}
+
+Class Answer_on_request{
+    measured_air_level
+    answer_timee
+    answer_status
+}
+
+Class Request_air_level{
+    location
+    request_time
+    reauest_status
+}
+
+
+SafeEco_Bot"1" --> "+"Answer_on_request: ProcessesAnswer
+
+Answer_on_request"+" --> "1"Request_air_level: AnswersRequest
+
+SafeEco_Bot"1" --> "+"Request_air_level: AssistUser
+@enduml
